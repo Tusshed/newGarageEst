@@ -1,18 +1,25 @@
-import React from 'react'
-import Button from './Button'
-
-
+import React from "react";
+import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="bg-[url(/images/hero-banner.png)] hero">
-        <div className="container text-gray-50">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[64px]">Find the <br /> Property That <br /> Feels Like Home.</h1>
-            <p className="text-gray-200 max-w-[440px] pt-4 pb-8">From cozy apartments to spacious family homes, we’ll help you find the one that fits your lifestyle.</p>
-            <Button label='Search property' className='primary-btn' />
-        </div>
+    <section className="bg-[url(/images/Adron2.jpeg)] hero">
+      <div className="container text-green-500">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[64px]">
+          Secure the Land <br /> That Defines Your Legacy. <br /> Your Dream
+          Home.
+        </h1>
+        <p className="text-black-200 max-w-[440px] pt-4 pb-8">
+          From compact land plots to vast properties, our expertise ensures you
+          find the perfect setting for your vision.
+        </p>
+        <Button
+          label="Schedule A Tour"
+          className="primary-btn bg-green-600 text-gray-100"
+        />
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
