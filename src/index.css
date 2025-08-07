@@ -1,11 +1,13 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @theme {
     /* Custom break points */
-    --breakpoint-*: initial;
-    --breakpoint-sm: 768px;
-    --breakpoint-md: 992px;
-    --breakpoint-lg: 1200px;
-    --breakpoint-xl: 1400px;
+    --breakpoint-*:initial;
+    --breakpoint-sm:768px;
+    --breakpoint-md:992px;
+    --breakpoint-lg:1200px;
+    --breakpoint-xl:1400px;
     /* Typography */
     --font-poppins: Poppins, sans-serif;
 }
@@ -16,31 +18,46 @@
     }
 }
 
+
+/* eslint-disable */
+
+
+/* prettier-ignore-start */
+
 @layer utilities {
     .container {
-        @apply px-4 sm: max-w-[720px] md: max-w-[960px] lg: max-w-[1150px] xl: max-w-[1350px] mx-auto
+        @apply px-4 xs:max-w-[540px] sm:max-w-[720px] md:max-w-[960px] lg:max-w-[1150px] xl:max-w-[1350px] mx-auto;
     }
-    h1,
-    h2,
-    h3,
-    h4 {
-        @apply leading-[1.2] font-semibold
-    }
-    h2 {
-        @apply text-2xl sm: text-3xl
-    }
-    p {
-        @apply leading-normal text-sm sm: text-base md: text-lg text-gray-600
-    }
-    .section {
-        @apply pt-[90px] md: pt-[150px]
-    }
-    .subtitle {
-        @apply text-sky-700 font-medium
-    }
-    .card-title {
-        @apply font-semibold text-[22px] hover: text-sky-600 transition-colors md: text-2xl
-    }
+}
+
+
+/* prettier-ignore-end */
+
+h1,
+h2,
+h3,
+h4 {
+    @apply leading-[1.2] font-semibold
+}
+
+h2 {
+    @apply text-2xl sm:text-3xl
+}
+
+p {
+    @apply leading-normal text-sm sm:text-base md:text-lg text-gray-600
+}
+
+.section {
+    @apply pt-[90px] md:pt-[150px]
+}
+
+.subtitle {
+    @apply text-sky-700 font-medium
+}
+
+.card-title {
+    @apply font-semibold text-[22px] hover:text-sky-600 transition-colors md:text-2xl
 }
 
 @layer components {
@@ -48,10 +65,10 @@
         @apply cursor-pointer
     }
     .primary-btn {
-        @apply bg-white text-gray-900 px-8 py-4 rounded-[50px] hover: bg-white/90 transition-all
+        @apply bg-white text-gray-900 px-8 py-4 rounded-[50px]
     }
     .secondary-btn {
-        @apply bg-sky-600 text-gray-100 hover: bg-sky-800 block max-w-max px-8 py-4 rounded-[50px] transition-colors
+        @apply bg-sky-600 text-gray-100 block max-w-max px-8 py-4 rounded-[50px] transition-colors
     }
 }
 
@@ -96,5 +113,5 @@
 /* Hero */
 
 .hero {
-    @apply min-h-screen lg: min-h-[860px] bg-cover bg-no-repeat flex items-center py-10
+    @apply min-h-screen lg:min-h-[860px] bg-cover bg-no-repeat flex items-center py-10
 }
