@@ -2,7 +2,6 @@
 @theme {
     /* Custom break points */
     --breakpoint-*: initial;
-    --breakpoint-xs: 575px;
     --breakpoint-sm: 768px;
     --breakpoint-md: 992px;
     --breakpoint-lg: 1200px;
@@ -19,7 +18,7 @@
 
 @layer utilities {
     .container {
-        @apply px-4 xs: max-w-[540px] sm: max-w-[720px] md: max-w-[960px] lg: max-w-[1150px] xl: max-w-[1350px] mx-auto
+        @apply px-4 sm: max-w-[720px] md: max-w-[960px] lg: max-w-[1150px] xl: max-w-[1350px] mx-auto
     }
     h1,
     h2,
@@ -64,7 +63,7 @@
 }
 
 .header.active {
-    @apply bg-lime-500;
+    @apply bg-sky-500;
     animation: slideIn 0.5s forwards ease-in-out;
 }
 
