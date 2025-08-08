@@ -94,7 +94,7 @@ p {
 }
 
 .navbar {
-    @apply bg-neutral-100 text-gray-950 fixed top-0 left-0 p-7 max-w-[280px] w-full h-screen z-40 transition-transform -translate-x-[280px] flex flex-col
+    @apply bg-neutral-100 text-gray-950 fixed top-0 left-0 p-6 max-w-[280px] w-full h-auto max-h-screen overflow-y-auto z-40 transition-transform -translate-x-[280px] flex flex-col;
 }
 
 .navbar.active {
@@ -102,7 +102,7 @@ p {
 }
 
 .overlay {
-    @apply fixed top-0 left-0 bg-sky-950/80 w-full h-screen opacity-0 pointer-events-none duration-300
+    @apply fixed top-0 left-0 bg-lime-950/80 w-full h-screen opacity-0 pointer-events-none duration-300
 }
 
 .overlay.active {

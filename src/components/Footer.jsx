@@ -1,5 +1,5 @@
 import React from "react";
-import { footerSocialIcons, footerListItems } from "../constant/data";
+import { footerListItems } from "../constant/data";
 
 const Footer = () => {
   return (
@@ -15,35 +15,26 @@ const Footer = () => {
               seamless experience.
             </p>
 
-            <div className="flex mt-3 gap-6">
-              {footerSocialIcons.map((icon, index) => (
-                <a
-                  href="#"
-                  key={index}
-                  className="hover:text-green-500 transition-colors"
-                >
-                  {icon.icon}
-                </a>
-              ))}
-            </div>
+            
           </div>
 
           {/* footer list */}
           {footerListItems.map((item) => (
             <div key={item.id}>
               <p className="text-xl font-bold text-white mb-3">{item.title}</p>
-              <ul className="grid gap-2">
-                {item.links.map((link, index) => (
-                  <li key={index}>
-                    <a
-                      href="#"
-                      className="text-neutral-50/60 hover:text-neutral-100 transition"
-                    >
-                      {link.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+              <ul className="flex flex-wrap gap-2 text-sm sm:flex-col">
+  {item.links.map((link, index) => (
+    <li key={index}>
+      <a
+        href="#"
+        className="text-neutral-50/60 hover:text-neutral-100 transition"
+      >
+        {link.label}
+      </a>
+    </li>
+  ))}
+</ul>
+
             </div>
           ))}
         </div>
