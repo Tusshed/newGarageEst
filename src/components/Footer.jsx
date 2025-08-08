@@ -3,10 +3,10 @@ import { footerSocialIcons, footerListItems } from "../constant/data";
 
 const Footer = () => {
   return (
-    <footer className="bg-black pt-[60px] pb-5 text-neutral-100">
+    <footer className="bg-black pt-10 md:pt-[60px] pb-5 md:pb-5 text-neutral-100">
       <div className="container">
         {/* footer top */}
-        <div className="grid gap-7 sm:grid-cols-2 md:grid-cols-[1fr_0.5fr_1fr_1fr]">
+        <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-[1fr_0.5fr_1fr_1fr]">
           {/* footer brand */}
           <div>
             
@@ -48,9 +48,9 @@ const Footer = () => {
           ))}
         </div>
         {/* footer bottom */}
-        <div className="grid gap-4 mt-10 md:mt-20">
+        <div className="grid gap-3 mt-6 md:mt-20">
           <div className="w-full h-[1px] bg-gray-500 block"></div>
-          <p className="text-white/80">
+          <p className="text-white/80 text-sm">
             &copy; {new Date().getFullYear()} copyright Tussh.All rights
             reserved
           </p>

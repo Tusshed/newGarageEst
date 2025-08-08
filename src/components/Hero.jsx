@@ -9,7 +9,7 @@ const Hero = () => {
           Secure the Land <br /> That Defines Your Legacy. <br /> Your Dream
           Home.
         </h1>
-        <p className="text-black-200 max-w-[440px] pt-4 pb-8">
+        <p className="text-white max-w-[440px] pt-4 pb-8">
           From compact land plots to vast properties, our expertise ensures you
           find the perfect setting for your vision.
         </p>
