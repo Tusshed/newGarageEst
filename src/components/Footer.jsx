@@ -3,15 +3,13 @@ import { footerSocialIcons, footerListItems } from "../constant/data";
 
 const Footer = () => {
   return (
-    <footer className="bg-black pt-[60px] pb-9 text-neutral-100">
+    <footer className="bg-black pt-[60px] pb-5 text-neutral-100">
       <div className="container">
         {/* footer top */}
         <div className="grid gap-7 sm:grid-cols-2 md:grid-cols-[1fr_0.5fr_1fr_1fr]">
           {/* footer brand */}
           <div>
-            <a href="#">
-              <img src="/images/adronlogo.png" alt="footer logo" />
-            </a>
+            
             <p className="my-[14px] text-neutral-50/60">
               Helping you find the perfect home with expert guidance and a
               seamless experience.

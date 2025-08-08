@@ -80,7 +80,7 @@ p {
 }
 
 .header.active {
-    @apply bg-sky-500;
+    @apply bg-lime-500;
     animation: slideIn 0.5s forwards ease-in-out;
 }
 

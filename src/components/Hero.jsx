@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="bg-[url(/images/Adron2.jpeg)] hero">
+    <section className="bg-[url(/images/adronCover.avif)] hero">
       <div className="container text-green-500">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[64px]">
           Secure the Land <br /> That Defines Your Legacy. <br /> Your Dream
