@@ -4,12 +4,12 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <section className="bg-[url(/images/adronCover.avif)] hero">
-      <div className="container text-green-500">
+      <div className="container text-green-500" id="home">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[64px]">
           Secure the Land <br /> That Defines Your Legacy. <br /> Your Dream
           Home.
         </h1>
-        <p className="text-white max-w-[440px] pt-4 pb-8">
+        <p className="text-yellow-100 max-w-[440px] pt-4 pb-8">
           From compact land plots to vast properties, our expertise ensures you
           find the perfect setting for your vision.
         </p>

@@ -125,15 +125,16 @@ export const teams = [
   },
   {
     id: 2,
-    name: "Opadokun Deborah",
-    role: "DRRO",
-    img: "./images/deb.JPG",
+    
+     name: "Lawanson Rasheed",
+    role: " RRO",
+    img: "./images/law.JPG",
   },
   {
     id: 3,
-    name: "Lawanson Rasheed",
-    role: " RRO",
-    img: "./images/law.JPG",
+   name: "Opadokun Deborah",
+    role: "DRRO",
+    img: "./images/deb.JPG",
   },
 ];
 export const testimonialItems = [

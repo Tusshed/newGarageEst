@@ -3,7 +3,7 @@ import { teams } from "../constant/data";
 import Button from "./Button";
 const Team = () => {
   return (
-    <section className="section pb-[90px] md:pb-[150px]">
+    <section className="section pb-[90px] md:pb-[150px]" id="about">
       <div className="container">
         <p className="text-lg text-lime-600 mt-2">Our Team</p>
         <h2>Meet our Teams</h2>

@@ -50,7 +50,7 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <a href="#" className="secondary-btn mt-auto hover:text-green-500">
+          <a href="/Homely/src/components/PopularProperties.jsx" className="secondary-btn mt-auto hover:text-green-500">
             Get Started
           </a>
         </div>

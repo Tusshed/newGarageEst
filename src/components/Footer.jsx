@@ -3,7 +3,7 @@ import { footerListItems } from "../constant/data";
 
 const Footer = () => {
   return (
-    <footer className="bg-black pt-6 pb-4 text-neutral-100 text-sm">
+    <footer className="bg-black pt-6 pb-4 text-neutral-100 text-sm" id="contact">
       <div className="container">
         {/* Footer content: Quick Links + Contact Info side by side */}
         <div className="flex flex-col gap-6 xs:flex-row xs:justify-between flex-wrap">

@@ -68,7 +68,7 @@ p {
         @apply bg-white text-gray-900 px-8 py-4 rounded-[50px]
     }
     .secondary-btn {
-        @apply bg-sky-600 text-gray-100 block max-w-max px-8 py-4 rounded-[50px] transition-colors
+        @apply bg-lime-600 text-gray-100 block max-w-max px-8 py-4 rounded-[50px] transition-colors
     }
 }
 
