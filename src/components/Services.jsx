@@ -3,7 +3,7 @@ import { ServicesCardItem } from "../constant/data";
 
 const Services = () => {
   return (
-    <section className="section pb-[90px] md:pb-[150px] bg-gray-200/30">
+    <section className="section pb-[90px] md:pb-[150px] bg-gray-200/30" id="services">
       <div className="container">
         <p className="text-lg text-lime-600 mt-2">Services </p>
         <h2> Services We Offer</h2>

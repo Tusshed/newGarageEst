@@ -1,9 +1,11 @@
 import React from "react";
 import { blogSectionCard } from "../constant/data";
 
+
 const Blog = () => {
   return (
-    <section className="section">
+    
+    <section className="section" id="blog">
       <div className="container">
         <p className="text-lg text-lime-600 mt-2 sm:text-center">
           Real Estate Insights
@@ -37,6 +39,7 @@ const Blog = () => {
         </div>
       </div>
     </section>
+   
   );
 };
 

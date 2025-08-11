@@ -24,7 +24,7 @@ const Footer = () => {
                 {item.links.map((link, index) => (
                   <li key={index}>
                     <a
-                      href="#"
+                      href={link.href ? link.href : "#"}
                       className="text-neutral-50/60 hover:text-neutral-100 transition"
                     >
                       {link.label}

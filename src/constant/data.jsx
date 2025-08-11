@@ -199,12 +199,12 @@ export const footerListItems = [
     id: 1,
     title: "Quick Links",
     links: [
-      { label: "Home" },
-      { label: "About Us" },
-      { label: "Properties" },
-      { label: "Services" },
-      { label: "Contact Us" },
-      { label: "Blog" },
+      { label: "Home", href: "#home" },
+      { label: "About Us", href: "#about"},
+      { label: "Properties",  href: "#properties" },
+      { label: "Services", href:"#services" },
+      { label: "Contact Us", href: "#contact"  },
+      { label: "Blog", href:"#blog" },
     ],
   },
 

@@ -12,7 +12,7 @@ const VideoPlayer = () => {
         <div className="relative aspect-video w-full max-w-4xl mx-auto rounded-lg overflow-hidden group">
           <ReactPlayer
             ref={playerRef}
-            url="https://pouch.jumpshare.com/preview/LgHUiOcpm1nMIeNFqxKm2fMCK9YTjLDAY7nggt5tbxBujFudrUCjhROgCJ62VALEkb7jLmddrS3zVkIxFCVkC_UQhI94nTmf4FHW39h-miP2lER-FL76eqxGwmC7glOSwbF8Xc8XeapBtnO9FF6KmG6yjbN-I2pg_cnoHs_AmgI.mp4"
+            url="https://youtu.be/2xut0U8kcd0?si=4cTAZVGUsiPM6s_u"
             playing={isPlaying}
             playsinline
             controls
